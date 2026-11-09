@@ -1,0 +1,30 @@
+/* DOCUMENTO CSS*/
+
+    body { margin: 0;
+        padding: 30px;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4; }
+
+    h1 { text-align: center;
+        margin-bottom: 35px;
+        color: #222; }
+
+    .galeria { display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        flex-wrap: nowrap; }
+
+    .video { width: 380px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 8px; }
+
+    .video iframe { width: 380px;
+        height: 214px;
+        border: none; }
+
+    .video h3 { font-size: 16px;
+        margin-top: 10px;
+        text-align: center; }

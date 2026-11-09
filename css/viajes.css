@@ -1,0 +1,52 @@
+/* DOCUMENTO CSS*/
+
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+body { font-family: Arial, sans-serif;
+    background-color: #eaf4fb;
+    color: #183b56;}
+
+header { background-color: #164e78;
+    color: white;
+    text-align: center;
+    padding: 40px 20px; }
+
+header h1 { font-size: 36px;
+    margin-bottom: 10px; }
+
+header p { font-size: 16px;
+    color: #d5eaf7; }
+
+main { width: 85%;
+    max-width: 800px;
+    margin: 30px auto; }
+
+.lugar { background-color: white;
+    margin-bottom: 35px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(22, 78, 120, 0.15); }
+
+.lugar h2 { color: #176b9b;
+    font-size: 24px;
+    margin-bottom: 18px;
+    text-align: center; }
+
+.lugar img { width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 18px; }
+
+.lugar p { font-size: 17px;
+    line-height: 1.7;
+    text-align: justify;
+    color: #40596d; }
+
+footer { background-color: #164e78;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    font-size: 15px; }
